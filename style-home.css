@@ -1,5 +1,14 @@
 body {
-	
+	background-color: #CC99FF;
+	font-size: 30px;
+	color: #822828;
+	text-align: left;
+}
+
+h1 {
+	color: rgb(255,255,0);
+	text-align:center;
+	font-size:60px
 }
 
 #banner1 {
