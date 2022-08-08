@@ -1,22 +1,30 @@
 body {
-	background-color: #CC99FF;
+	background-color: #71b847;
 	font-size: 30px;
 	color: #822828;
 	text-align: left;
 }
 
 h1 {
-	color: rgb(255,255,0);
+	color: rgb(93, 93, 47);
 	text-align:center;
-	font-size:60px
+	font-size:60px;
+	border: 5px dotted rgb(27, 20, 20);
 }
 
-#banner1 {
-	width:50%;
+p {
+	color: #2a2d47
+}
+
+#filoetec1 {
+	padding: 20px;
+	margin-left: 375px;
+	width:30%;
+	border: 5px groove rgb(92, 45, 45);
 }
 
 .principal{
-	background: #ffff00;
+	background: #b78a43;
 	padding: 30px;
 }
 
@@ -37,7 +45,7 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #0e0b0b;
 }
 
 .itens {
@@ -45,7 +53,7 @@ em strong {
 }
 
 .conteudo {
-	background: #993399;
+	background: #191712;
 	padding: 20px;
 }
 
