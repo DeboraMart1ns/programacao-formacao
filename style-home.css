@@ -1,26 +1,27 @@
 body {
-    background-color: #white;
+	background-color: #white;
 	font-size: 30px;
 	color: #822828;
 	text-align: left;
-    font-family:cursive;
+	font-family: cursive;
 
 }
 
 #ondas {
-    width: 100%;
+	width: 100%;
 }
 
-.aratu1{
-    text-align: top;
-    margin-top: top;
-    width: 40%;
+.aratu1 {
+	text-align: top;
+	margin-top: top;
+	width: 40%;
 }
+
 h1 {
 	color: rgb(93, 93, 47);
-	text-align:center;
+	text-align: center;
 	widht: 10px;
-    font-family:cursive;
+	font-family: cursive;
 }
 
 p {
@@ -30,14 +31,14 @@ p {
 #cabecalho {
 	padding: 20px;
 	margin-left: 375px;
-	width:30%;
-    background-color: aquamarine;
+	width: 30%;
+	background-color: aquamarine;
 }
 
-.principal{
+.principal {
 	background: #white;
 	padding: 30px;
-    line-height:0;
+	line-height: 0;
 }
 
 .titulo-principal {
@@ -67,16 +68,15 @@ em strong {
 .conteudo {
 	background: #white;
 	padding: 20px;
-    font-size:25px;
+	font-size: 25px;
 }
 
 ul {
-	display: block;
-	vertical-align: top;
-	width: 25%;
-	margin-right: 15%;
+	display: inline-block;
+	margin-top: top;
+	padding-top: 0;
 }
 
-.imagemfiloetec {
-	width: 50%;
+.aratu5 {
+	width: 100%;
 }
