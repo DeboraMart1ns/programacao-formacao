@@ -1,0 +1,98 @@
+<!DOCTYPEhtml>
+	<html lang="pt-br">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title>contato</title>
+		<link rel="stylsheet" href="reset.css">
+		<link rel="stylesheet" href="style-contato.css">
+
+	</head>
+
+	<header id="demoObject">
+		<div class="menu">
+			<img src="aratu3.jpg" id="aratu3" alt="logoaratu">
+
+			<nav>
+				<ul>
+					<li><a href="elementos.html">desenhos</a></li>
+					<li><a href="index.html">desenhadora</a></li>
+					<li><a href="contato.html">contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<form>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+			<label for="email">Email</label>
+			<input type="text" id="email" class="input-padrao" required>
+
+			<label for="telefone">Telefone</label>
+			<input type="text" id="telefone" class="input-padrao" required>
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+			<div>
+				<p>Como prefere o nosso contato?</p>
+				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+					Email</label>
+
+				<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+					Telefone</label>
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+						checked> WhatsApp</label>
+			</div>
+
+			<div>
+				<p>Qual horário prefere ser atendido?</p>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>
+					<option>Noite</option>
+				</select>
+			</div>
+
+			<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+			<input type="submit" value="Enviar formulário" class="enviar">
+		</form>
+
+		<table>
+			<tr>
+				<thead>
+					<th>Dia</th>
+					<th>Horário</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8-20h</td>
+					</tr>
+					<tr>
+						<td>Terça</td>
+						<td>8-20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8-20h</td>
+					</tr>
+				</tbody>
+		</table>
+	</main>
+
+
+
+	<footer>
+		<img src="aratu6.jpg" class="aratu6">
+		<h5 class="copright">&copy; Copyright Aratuarteflorestações</h5>
+	</footer>
+	</body>
+
+	</html>
